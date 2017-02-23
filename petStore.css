@@ -161,11 +161,11 @@ footer {
 		white-space: nowrap;
 	}
 }
-/* Messes up previous media tag*/
-/*@media only screen and (max-height: 1366px) {
+/*Makes it look nice in Ipad BUT
+ Messes up previous media tag*/
+/*@media only screen and (max-width: 768px) {
 	.petDiv {
 		display: inline-block;
-		width: 32%;
+		min-height: 10rem;
 	}
 }*/
-
